@@ -1,0 +1,11 @@
+GLaDOS version 0
+
+This is a canvas script that uses HTML5 to draw the GLaDOS character from Portal 2 into the top left corner of the user's browser.
+
+To add it to a webpage:
+	1. Paste the "glados_parent" DIV and all its contents onto the page, inside the <body> element.
+	2. Paste the "glados_images" DIV and all its contents anywhere on the page.
+	2. Load glados.js
+	3. call GLaDOS.init()
+
+Depending on the design of the page, you may have to add a z-index to each of the canvas elements.
