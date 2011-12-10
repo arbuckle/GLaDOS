@@ -85,9 +85,9 @@ var GLaDOS = new function() {
 		numImages = 3;
 		loadedImages = 0;
 		sources = {
-			body: "http://catto5k.com/a/glados/body.png",
-			arm: "http://catto5k.com/a/glados/arm.png",
-			face: "http://catto5k.com/a/glados/face.png"
+			body: document.getElementById("img_body").src,
+			arm: document.getElementById("img_arm").src,
+			face: document.getElementById("img_face").src
 		};
 
 		for (address in sources) {
